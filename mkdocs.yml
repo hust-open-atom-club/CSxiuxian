@@ -1,15 +1,15 @@
 site_name: CSxiuxian
 site_description: 计算机修仙境界指南
 site_author: Plucky923
-site_url: https://plucky923.github.io/CSxiuxian/
-repo_url: https://github.com/Plucky923/CSxiuxian
-repo_name: Plucky923/CSxiuxian
+site_url: https://xiuxian.openatom.club/
+repo_url: https://github.com/hust-open-atom-club/CSxiuxian
+repo_name: hust-open-atom-club/CSxiuxian
 
 theme:
   name: material
   language: zh
-  logo: https://raw.githubusercontent.com/Plucky923/CSxiuxian/main/docs/assets/logo.png
-  favicon: https://raw.githubusercontent.com/Plucky923/CSxiuxian/main/docs/assets/favicon.ico
+  logo: https://raw.githubusercontent.com/hust-open-atom-club/logos/refs/heads/main/logo_light_circle/logo_light_circle.svg
+  favicon: https://raw.githubusercontent.com/hust-open-atom-club/logos/refs/heads/main/logo_light_circle/logo_light_circle.svg
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
