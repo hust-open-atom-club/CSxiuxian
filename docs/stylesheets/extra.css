@@ -1,0 +1,30 @@
+/* 自定义样式 */
+:root {
+  --md-primary-fg-color: #1976d2;
+  --md-accent-fg-color: #ff6f00;
+}
+
+/* 页面标题样式 */
+.md-header__title {
+  font-weight: 600;
+}
+
+/* 代码块样式 */
+.codehilite {
+  border-radius: 8px;
+}
+
+/* 按钮样式 */
+.md-button {
+  border-radius: 6px;
+}
+
+/* 自定义背景 */
+.md-main__inner {
+  background: linear-gradient(135deg, rgba(25, 118, 210, 0.05) 0%, rgba(255, 111, 0, 0.05) 100%);
+}
+
+/* 深色模式调整 */
+[data-md-color-scheme="slate"] .md-main__inner {
+  background: linear-gradient(135deg, rgba(25, 118, 210, 0.1) 0%, rgba(255, 111, 0, 0.1) 100%);
+}

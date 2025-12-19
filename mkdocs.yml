@@ -1,0 +1,101 @@
+site_name: CSxiuxian
+site_description: 计算机修仙境界指南
+site_author: Plucky923
+site_url: https://plucky923.github.io/CSxiuxian/
+repo_url: https://github.com/Plucky923/CSxiuxian
+repo_name: Plucky923/CSxiuxian
+
+theme:
+  name: material
+  language: zh
+  logo: https://raw.githubusercontent.com/Plucky923/CSxiuxian/main/docs/assets/logo.png
+  favicon: https://raw.githubusercontent.com/Plucky923/CSxiuxian/main/docs/assets/favicon.ico
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Plucky923
+      name: GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Plucky923
+      name: Twitter
+  css:
+    - stylesheets/extra.css
+
+copyright: |
+  &copy; 2025 Plucky923. Powered by [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+
+nav:
+  - 首页: index.md
+  - 关于: about.md
+  - 境界体系:
+    - 引言: introduction.md
+    - 图灵榜: turing-list.md
+    - 修仙基本框架: cultivation-framework.md
+  - 修炼指南:
+    - 境界突破详解: breakthrough-details.md
+  - 神话传说:
+    - 飞升神话之傀儡术: puppet-myth.md
+    - 飞升神话之与天谋易: heaven-myth.md
